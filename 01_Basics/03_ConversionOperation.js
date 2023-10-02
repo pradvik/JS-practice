@@ -40,3 +40,29 @@ let NewScore = 33
 let StoN = String(NewScore)
 console.log(StoN)
 console.log(typeof StoN)
+
+
+//########################## Operations ############################
+
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+//-----------------------------------------|
+ //                                        |
+console.log(1 + "2") // --> 12             |  
+console.log("1" + 2) // --> 12             | avoid this type of conversion not a good pratice if 
+console.log("1" + 2 + 2) // --> 122        | you want to such conversion then use parenthesis
+console.log(1 + 2 + "2") // --> 32         | Ex. console.log((1 + 2) + "2")
+//                                         |
+//-----------------------------------------|
+//
+console.log(+true) // --> 1 
+console.log(+"") // --> 0
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter)
+++gameCounter;
+console.log(gameCounter)
