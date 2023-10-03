@@ -50,7 +50,7 @@ let negValue = -value
 console.log(negValue)
 
 //-----------------------------------------|
- //                                        |
+//                                         |
 console.log(1 + "2") // --> 12             |  
 console.log("1" + 2) // --> 12             | avoid this type of conversion not a good pratice if 
 console.log("1" + 2 + 2) // --> 122        | you want to such conversion then use parenthesis
@@ -66,3 +66,11 @@ gameCounter++;
 console.log(gameCounter)
 ++gameCounter;
 console.log(gameCounter)
+
+
+
+let x = 3;
+const y = x++;
+
+let x2 = 3n;
+const y2 = x2++
